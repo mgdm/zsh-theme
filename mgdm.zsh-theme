@@ -19,7 +19,7 @@ RETURN_CODE="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
 PROMPT='%{${fg[blue]}%}${USER}%{$reset_color%}@%F{$(get_host_color)}%m%{$reset_color%}:%{${fg[blue]}%}%1~%{${fg_bold[$CARETCOLOR]}%}%#%{${reset_color}%} '
 
-RPS1='${RETURN_CODE} $(git_prompt_info) %D{%H:%M:%S}'
+RPS1='${RETURN_CODE}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[blue]%}git:%{$fg_bold[cyan]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg[blue]%}%{$reset_color%}"
